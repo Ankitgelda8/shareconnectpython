@@ -1,0 +1,18 @@
+#!/bin/bash
+set -e
+
+BUILD_DIR=$1
+
+echo "-----> Installing shareconnectpython"
+cd $BUILD_DIR
+
+# Clone the repository
+git clone https://github.com/Ankitgelda8/shareconnectpython.git shareconnectpython
+
+# Navigate to the cloned directory
+cd shareconnectpython
+
+# Install dependencies
+pip install -r requirements.txt
+
+echo "-----> shareconnectpython installed successfully"
