@@ -16,3 +16,6 @@ cd shareconnectpython
 pip install -r requirements.txt
 
 echo "-----> shareconnectpython installed successfully"
+
+export PYTHONPATH=$BUILD_DIR/shareconnectpython:$PYTHONPATH
+echo "PYTHONPATH updated: $PYTHONPATH"
