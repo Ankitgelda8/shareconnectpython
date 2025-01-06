@@ -2,7 +2,7 @@
 # import time
 import ssl
 import json
-import websocket
+from websocket import WebSocketApp
 
 class SharekhanWebSocket(object):
     ROOT_URI = "wss://stream.sharekhan.com/skstream/api/stream"
