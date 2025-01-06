@@ -14,7 +14,7 @@ setup(
     author='rg-sharekhanapi',
     author_email='shareconnect@sharekhan.com',
     description='Sharekhan Data Feed Trading Api Server',
-    packages=find_packages(),
+    packages=packages=["SharekhanApi"],
     long_description=readme,
     long_description_content_type="text/markdown",
     install_requires=requirements,
